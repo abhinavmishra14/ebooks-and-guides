@@ -1,0 +1,16 @@
+xquery version "1.0-ml";
+
+declare namespace parts ="xdmp:pdf-convert";
+
+let $results := xdmp:pdf-convert(xdmp:document-get("D:/ePub2ToePub3/copy/LM Tech Files/BettyCrocker300Calorie.pdf"),
+                        "/BettyCrocker300Calorie.pdf",
+                        <options xmlns="xdmp:pdf-convert"
+                                       xmlns:tidy="xdmp:tidy">
+                           <image-quality>100</image-quality>            
+                        </options>
+                 )
+                         
+for $each at $pos in $results[1]/*:part
+return (
+       xdmp:document-insert($each, $results[$pos+1],xdmp:default-permissions(),())
+)

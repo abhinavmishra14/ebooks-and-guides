@@ -1,0 +1,6 @@
+ for $i in $input/element()
+                       return  typeswitch($i)
+                               case element (lnv:LEVEL-1) return LNOH:LEVEL-1($i)
+                               case element (lnv:LEVEL-2) return LNOH:LEVEL-N($i)
+                               case element (lnv:LEVEL-3) return LNOH:LEVEL-N($i)
+                               default return ()
