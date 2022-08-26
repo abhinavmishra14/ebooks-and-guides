@@ -1,0 +1,4 @@
+sudo su
+apt-get -y update
+apt-get -y install nginx
+echo "Welcome to network lab $(hostname)" > /var/www/html/index.html
