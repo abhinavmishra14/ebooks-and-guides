@@ -1,0 +1,74 @@
+<response>
+	<lst name="responseHeader">
+		<int name="status">0</int>
+		<int name="QTime">318546</int>
+	</lst>
+	<lst name="report">
+		<lst name="alfresco">
+			<str name="Alfresco version">5.0.0</str>
+			
+			<long name="Count of duplicated acl transactions in the index">0</long>
+			<long name="Count of acl transactions in the index but not the DB">0</long>
+			<long name="Count of missing acl transactions from the Index">0</long>
+			<long name="Count of duplicated transactions in the index">0</long>
+			<long name="Count of transactions in the index but not the DB">37344</long>
+			<long name="Count of missing transactions from the Index">0</long>
+			<long name="Count of duplicate nodes in the index">100</long>
+			<long name="Count of duplicate error docs in the index">0</long>
+			<long name="Count of duplicate unindexed docs in the index">100</long>
+			
+			<long name="DB transaction count">2875797</long>
+			<long name="DB acl transaction count">3745</long>
+			<long name="Index acl transaction count">3784</long>
+			<long name="Index unique acl transaction count">3784</long>
+			<long name="Last indexed change set commit time">1551288391335</long>
+			<str name="Last indexed change set commit date">2019-02-27T17:26:31</str>
+			<long name="Last changeset id before holes">-1</long>
+			<long name="First transaction in the index but not the DB">188545</long>
+			<long name="Index transaction count">3706679</long>
+			<long name="Index unique transaction count">3706679</long>
+			<long name="Index node count">4189289</long>
+			<long name="First duplicate node id in the index">953817</long>
+			<long name="Index error count">12576</long>
+			<long name="Index unindexed count">1806432</long>
+			<long name="First duplicate unindexed in the index">2335437</long>
+			<long name="Last indexed transaction commit time">1551289560701</long>
+			<str name="Last indexed transaction commit date">2019-02-27T17:46:00</str>
+			<long name="Last TX id before holes">-1</long>
+			<long name="Node count with FTSStatus Clean">3637265</long>
+			<long name="Node count with FTSStatus Dirty">0</long>
+			<long name="Node count with FTSStatus New">0</long>
+		</lst>
+		<lst name="archive">
+			<str name="Alfresco version">5.0.0</str>
+			<long name="DB acl transaction count">3745</long>
+			<long name="Count of duplicated acl transactions in the index">0</long>
+			<long name="Count of acl transactions in the index but not the DB">0</long>
+			<long name="Count of missing acl transactions from the Index">0</long>
+			<long name="Index acl transaction count">3784</long>
+			<long name="Index unique acl transaction count">3784</long>
+			<long name="Last indexed change set commit time">1551288391335</long>
+			<str name="Last indexed change set commit date">2019-02-27T17:26:31</str>
+			<long name="Last changeset id before holes">-1</long>
+			<long name="DB transaction count">2875798</long>
+			<long name="Count of duplicated transactions in the index">0</long>
+			<long name="Count of transactions in the index but not the DB">38009</long>
+			<long name="First transaction in the index but not the DB">188545</long>
+			<long name="Count of missing transactions from the Index">0</long>
+			<long name="Index transaction count">3744968</long>
+			<long name="Index unique transaction count">3744968</long>
+			<long name="Index node count">191061</long>
+			<long name="Count of duplicate nodes in the index">0</long>
+			<long name="Index error count">130</long>
+			<long name="Count of duplicate error docs in the index">0</long>
+			<long name="Index unindexed count">38765</long>
+			<long name="Count of duplicate unindexed docs in the index">0</long>
+			<long name="Last indexed transaction commit time">1551289621500</long>
+			<str name="Last indexed transaction commit date">2019-02-27T17:47:01</str>
+			<long name="Last TX id before holes">-1</long>
+			<long name="Node count with FTSStatus Clean">59432</long>
+			<long name="Node count with FTSStatus Dirty">0</long>
+			<long name="Node count with FTSStatus New">0</long>
+		</lst>
+	</lst>
+</response>

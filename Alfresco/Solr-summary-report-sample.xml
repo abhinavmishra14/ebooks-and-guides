@@ -1,0 +1,466 @@
+<response>
+	<lst name="responseHeader">
+		<int name="status">0</int>
+		<int name="QTime">1060</int>
+	</lst>
+	<lst name="Summary">
+		<lst name="alfresco">
+			<long name="Alfresco Acls in Index">10595</long>
+			<long name="Alfresco Nodes in Index">4176265</long>
+			<long name="Alfresco Transactions in Index">3642811</long>
+			<long name="Alfresco Acl Transactions in Index">3774</long>
+			<long name="Alfresco States in Index">2</long>
+			<long name="Alfresco Unindexed Nodes">1799110</long>
+			<long name="Alfresco Error Nodes in Index">12450</long>
+			<lst name="Searcher">
+				<str name="searcherName">Searcher@2ed6cc2d[alfresco] main</str>
+				<bool name="caching">true</bool>
+				<int name="numDocs">9645007</int>
+				<int name="maxDoc">10244751</int>
+				<int name="deletedDocs">599744</int>
+				<str name="reader">
+					StandardDirectoryReader(segments_5ahp:828339:nrt _53l2(4.9):C9248241/488636:delGen=12343 _5yqo(4.9):C694097/73155:delGen=2247 _62cf(4.9):C43690/4728:delGen=358 _649l(4.9):C65920/8833:delGen=674 _60gx(4.9):C33523/3219:delGen=264 _5zn6(4.9):C20735/2685:delGen=185 _646t(4.9):C13223/1210:delGen=90 _64y2(4.9):C23386/6443:delGen=99 _6636(4.9):C41784/3609:delGen=189 _675s(4.9):C17688/1808:delGen=147 _66s6(4.9):C4973/62:delGen=47 _66hm(4.9):C8617/544:delGen=109 _683f(4.9):C5015/1290:delGen=14 _687b(4.9):C11320/1320:delGen=18 _689t(4.9):C8198/1035:delGen=9 _68ad(4.9):C847/17:delGen=6 _689w(4.9):C2336/1108:delGen=1 _68an(4.9):C991/25:delGen=3 _68b7(4.9):C137/7:delGen=3 _68b8(4.9):C15/6:delGen=3 _68b9(4.9):C5/2:delGen=2 _68ba(4.9):C10/2:delGen=1)
+				</str>
+				<str name="readerDir">
+					org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/local/alfresco-5.0.0.5/alf_data/solr4/index/workspace/SpacesStore/index lockFactory=NativeFSLockFactory@/local/alfresco-5.0.0.5/alf_data/solr4/index/workspace/SpacesStore/index; maxCacheMB=48.0 maxMergeSizeMB=4.0)
+				</str>
+				<long name="indexVersion">828339</long>
+				<date name="openedAt">2019-02-21T19:57:30.211Z</date>
+				<date name="registeredAt">2019-02-21T19:57:36.899Z</date>
+				<long name="warmupTime">6683</long>
+			</lst>
+			<lst name="/alfrescoAuthorityCache">
+				<long name="lookups">0</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">4</long>
+				<long name="evictions">0</long>
+				<int name="size">4</int>
+				<long name="warmupTime">1958</long>
+				<long name="cumulative_lookups">756747</long>
+				<long name="cumulative_hits">433800</long>
+				<float name="cumulative_hitratio">0.57</float>
+				<long name="cumulative_inserts">7263</long>
+				<long name="cumulative_evictions">0</long>
+			</lst>
+			<lst name="/queryResultCache">
+				<long name="lookups">1</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">5</long>
+				<long name="evictions">0</long>
+				<int name="size">5</int>
+				<long name="warmupTime">1</long>
+				<long name="cumulative_lookups">1500923</long>
+				<long name="cumulative_hits">628018</long>
+				<float name="cumulative_hitratio">0.42</float>
+				<long name="cumulative_inserts">872921</long>
+				<long name="cumulative_evictions">143337</long>
+			</lst>
+			<lst name="/alfresco">
+				<long name="handlerStart">1548612680981</long>
+				<long name="requests">208582</long>
+				<long name="errors">0</long>
+				<long name="timeouts">0</long>
+				<double name="totalTime">1.1329173227923E7</double>
+				<double name="avgRequestsPerSecond">0.09628142818681766</double>
+				<double name="5minRateReqsPerSecond">0.027932717562406166</double>
+				<double name="15minRateReqsPerSecond">0.03725849526132694</double>
+				<double name="avgTimePerRequest">54.315200870271646</double>
+				<double name="medianRequestTime">2.316602</double>
+				<double name="75thPcRequestTime">505.99659299999996</double>
+				<double name="95thPcRequestTime">723.3419495499999</double>
+				<double name="99thPcRequestTime">1090.5841130500005</double>
+				<double name="999thPcRequestTime">3588.143188301009</double>
+			</lst>
+			<lst name="/alfrescoPathCache">
+				<long name="lookups">0</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">32</long>
+				<long name="evictions">0</long>
+				<int name="size">32</int>
+				<long name="warmupTime">3064</long>
+				<long name="cumulative_lookups">1230596</long>
+				<long name="cumulative_hits">1227873</long>
+				<float name="cumulative_hitratio">1.0</float>
+				<long name="cumulative_inserts">2723</long>
+				<long name="cumulative_evictions">0</long>
+			</lst>
+			<lst name="/afts">
+				<long name="handlerStart">1548612680981</long>
+				<long name="requests">76335</long>
+				<long name="errors">0</long>
+				<long name="timeouts">0</long>
+				<double name="totalTime">1.5843567254737E7</double>
+				<double name="avgRequestsPerSecond">0.03523622758964001</double>
+				<double name="5minRateReqsPerSecond">0.03512057366060097</double>
+				<double name="15minRateReqsPerSecond">0.04308013665065422</double>
+				<double name="avgTimePerRequest">207.55311789791054</double>
+				<double name="medianRequestTime">82.219285</double>
+				<double name="75thPcRequestTime">422.06921875</double>
+				<double name="95thPcRequestTime">998.6897561499984</double>
+				<double name="99thPcRequestTime">12636.925887910002</double>
+				<double name="999thPcRequestTime">52175.214934279065</double>
+			</lst>
+			<lst name="/cmis">
+				<long name="handlerStart">1548612680982</long>
+				<long name="requests">15849</long>
+				<long name="errors">0</long>
+				<long name="timeouts">0</long>
+				<double name="totalTime">222224.996329</double>
+				<double name="avgRequestsPerSecond">0.0073158966563966294</double>
+				<double name="5minRateReqsPerSecond">1.4058592229345776E-24</double>
+				<double name="15minRateReqsPerSecond">7.955990934228454E-10</double>
+				<double name="avgTimePerRequest">14.021389130481419</double>
+				<double name="medianRequestTime">5.695042</double>
+				<double name="75thPcRequestTime">6.050542</double>
+				<double name="95thPcRequestTime">17.090158</double>
+				<double name="99thPcRequestTime">21.213915</double>
+				<double name="999thPcRequestTime">21.213915</double>
+			</lst>
+			<lst name="/filterCache">
+				<long name="lookups">0</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">1</long>
+				<long name="evictions">0</long>
+				<long name="size">86</long>
+				<long name="warmupTime">1658</long>
+				<long name="cumulative_lookups">1379241</long>
+				<long name="cumulative_hits">1151783</long>
+				<float name="cumulative_hitratio">0.84</float>
+				<long name="cumulative_inserts">227468</long>
+				<long name="cumulative_evictions">229</long>
+			</lst>
+			<lst name="Searcher-0">
+				<lst name="Searcher">
+					<str name="searcherName">Searcher@2ed6cc2d[alfresco] main</str>
+					<bool name="caching">true</bool>
+					<int name="numDocs">9645007</int>
+					<int name="maxDoc">10244751</int>
+					<int name="deletedDocs">599744</int>
+					<str name="reader">
+						StandardDirectoryReader(segments_5ahp:828339:nrt _53l2(4.9):C9248241/488636:delGen=12343 _5yqo(4.9):C694097/73155:delGen=2247 _62cf(4.9):C43690/4728:delGen=358 _649l(4.9):C65920/8833:delGen=674 _60gx(4.9):C33523/3219:delGen=264 _5zn6(4.9):C20735/2685:delGen=185 _646t(4.9):C13223/1210:delGen=90 _64y2(4.9):C23386/6443:delGen=99 _6636(4.9):C41784/3609:delGen=189 _675s(4.9):C17688/1808:delGen=147 _66s6(4.9):C4973/62:delGen=47 _66hm(4.9):C8617/544:delGen=109 _683f(4.9):C5015/1290:delGen=14 _687b(4.9):C11320/1320:delGen=18 _689t(4.9):C8198/1035:delGen=9 _68ad(4.9):C847/17:delGen=6 _689w(4.9):C2336/1108:delGen=1 _68an(4.9):C991/25:delGen=3 _68b7(4.9):C137/7:delGen=3 _68b8(4.9):C15/6:delGen=3 _68b9(4.9):C5/2:delGen=2 _68ba(4.9):C10/2:delGen=1)
+					</str>
+					<str name="readerDir">
+						org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/local/alfresco-5.0.0.5/alf_data/solr4/index/workspace/SpacesStore/index lockFactory=NativeFSLockFactory@/local/alfresco-5.0.0.5/alf_data/solr4/index/workspace/SpacesStore/index; maxCacheMB=48.0 maxMergeSizeMB=4.0)
+					</str>
+					<long name="indexVersion">828339</long>
+					<date name="openedAt">2019-02-21T19:57:30.211Z</date>
+					<date name="registeredAt">2019-02-21T19:57:36.899Z</date>
+					<long name="warmupTime">6683</long>
+				</lst>
+			</lst>
+			<int name="Number of Searchers">1</int>
+			<int name="Total Searcher Cache (GB)">0</int>
+			<str name="On disk (GB)">10.86879</str>
+			<long name="Per node B">2794</long>
+			<lst name="FTS">
+				<long name="Node count with FTSStatus Clean">3629621</long>
+				<long name="Node count with FTSStatus Dirty">0</long>
+				<long name="Node count with FTSStatus New">0</long>
+			</lst>
+			<bool name="Active">false</bool>
+			<bool name="ModelTracker Active">false</bool>
+			<bool name="ContentTracker Active">false</bool>
+			<bool name="MetadataTracker Active">false</bool>
+			<bool name="AclTracker Active">false</bool>
+			<long name="Last Index TX Commit Time">1550779042262</long>
+			<date name="Last Index TX Commit Date">2019-02-21T19:57:22.262Z</date>
+			<str name="TX Lag">0 s</str>
+			<str name="TX Duration">P0Y</str>
+			<long name="Timestamp for last TX on server">1550779042262</long>
+			<date name="Date for last TX on server">2019-02-21T19:57:22.262Z</date>
+			<long name="Id for last TX on server">10852481</long>
+			<long name="Id for last TX in index">10852481</long>
+			<long name="Approx transactions remaining">0</long>
+			<str name="Approx transaction indexing time remaining">0 Seconds</str>
+			<long name="Last Index Change Set Commit Time">1550694054591</long>
+			<date name="Last Index Change Set Commit Date">2019-02-20T20:20:54.591Z</date>
+			<str name="Change Set Lag">0 s</str>
+			<str name="Change Set Duration">P0Y</str>
+			<long name="Timestamp for last Change Set on server">1550694054591</long>
+			<date name="Date for last Change Set on server">2019-02-20T20:20:54.591Z</date>
+			<long name="Id for last Change Set on server">5994</long>
+			<long name="Id for last Change Set in index">5994</long>
+			<long name="Approx change sets remaining">0</long>
+			<str name="Approx change set indexing time remaining">0 Seconds</str>
+			<str name="Approx content indexing time remaining">0 Seconds</str>
+			<lst name="Model sync times (ms)">
+				<date name="Start">2019-01-27T18:13:28.175Z</date>
+				<long name="N">143842</long>
+				<double name="Min">36.485606</double>
+				<double name="Max">103121.567346</double>
+				<double name="Mean">40.663657490781574</double>
+				<double name="Varience">73982.24399294423</double>
+				<double name="StdDev">271.9967720266993</double>
+			</lst>
+			<lst name="Acl index time (ms)">
+				<date name="Start">2019-01-28T10:11:45.286Z</date>
+				<long name="N">59</long>
+				<double name="Min">0.128259</double>
+				<double name="Max">1.512513</double>
+				<double name="Mean">0.4815293728813559</double>
+				<double name="Varience">0.04331410926347924</double>
+				<double name="StdDev">0.20812042010211118</double>
+			</lst>
+			<lst name="Node index time (ms)">
+				<date name="Start">2019-01-27T18:13:30.409Z</date>
+				<long name="N">1104556</long>
+				<double name="Min">0.175769</double>
+				<double name="Max">505819.697146</double>
+				<double name="Mean">8.23007092622827</double>
+				<double name="Varience">1046051.3506561273</double>
+				<double name="StdDev">1022.7665181536436</double>
+			</lst>
+			<lst name="Docs/Tx">
+				<date name="Start">2019-01-27T18:13:30.445Z</date>
+				<long name="N">226184</long>
+				<double name="Min">1.0</double>
+				<double name="Max">27239.0</double>
+				<double name="Mean">9.99509691224837</double>
+				<double name="Varience">23767.23376010764</double>
+				<double name="StdDev">154.16625363583185</double>
+			</lst>
+			<lst name="Doc Transformation time (ms)">
+				<null name="Start"/>
+				<long name="N">0</long>
+				<double name="Min">0.0</double>
+				<double name="Max">0.0</double>
+				<double name="Mean">0.0</double>
+				<double name="Varience">NaN</double>
+				<double name="StdDev">NaN</double>
+			</lst>
+		</lst>
+		<lst name="archive">
+			<long name="Alfresco Acls in Index">10764</long>
+			<long name="Alfresco Nodes in Index">186027</long>
+			<long name="Alfresco Transactions in Index">3688650</long>
+			<long name="Alfresco Acl Transactions in Index">3774</long>
+			<long name="Alfresco States in Index">2</long>
+			<long name="Alfresco Unindexed Nodes">38084</long>
+			<long name="Alfresco Error Nodes in Index">130</long>
+			<lst name="Searcher">
+				<str name="searcherName">Searcher@1712e59f[archive] main</str>
+				<bool name="caching">true</bool>
+				<int name="numDocs">3927431</int>
+				<int name="maxDoc">3929349</int>
+				<int name="deletedDocs">1918</int>
+				<str name="reader">
+					StandardDirectoryReader(segments_5zqc:900938:nrt _4b(4.9):C586170/1859:delGen=44 _67on(4.9):C3049497 _5j5b(4.9):C50768/2:delGen=2 _5pir(4.9):C39783/3:delGen=2 _5xwf(4.9):C34772/3:delGen=3 _62rf(4.9):C41473/3:delGen=3 _67od(4.9):C26533/2:delGen=2 _6nmv(4.9):C9480/1:delGen=1 _6np3(4.9):C7193/1:delGen=1 _6nfx(4.9):C10677/1:delGen=1 _6if3(4.9):C8042/1:delGen=1 _6ifd(4.9):C7409/1:delGen=1 _6ni5(4.9):C8815/13:delGen=2 _6npn(4.9):C9313/1:delGen=1 _6not(4.9):C9568/1:delGen=1 _6nnp(4.9):C10026/1:delGen=1 _6nnf(4.9):C9288/1:delGen=1 _6npd(4.9):C10494/1:delGen=1 _6npo(4.9):C4/2:delGen=2 _6npp(4.9):C4/2:delGen=2 _6npq(4.9):C4/2:delGen=2 _6npr(4.9):C12/6:delGen=2 _6nps(4.9):C4/2:delGen=2 _6npt(4.9):C10/5:delGen=2 _6npu(4.9):C4/2:delGen=2 _6npv(4.9):C6/2:delGen=1)
+				</str>
+				<str name="readerDir">
+					org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/local/alfresco-5.0.0.5/alf_data/solr4/index/archive/SpacesStore/index lockFactory=NativeFSLockFactory@/local/alfresco-5.0.0.5/alf_data/solr4/index/archive/SpacesStore/index; maxCacheMB=48.0 maxMergeSizeMB=4.0)
+				</str>
+				<long name="indexVersion">900938</long>
+				<date name="openedAt">2019-02-21T19:57:30.163Z</date>
+				<date name="registeredAt">2019-02-21T19:57:30.213Z</date>
+				<long name="warmupTime">45</long>
+			</lst>
+			<lst name="/alfrescoAuthorityCache">
+				<long name="lookups">0</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">0</long>
+				<long name="evictions">0</long>
+				<int name="size">0</int>
+				<long name="warmupTime">0</long>
+				<long name="cumulative_lookups">0</long>
+				<long name="cumulative_hits">0</long>
+				<float name="cumulative_hitratio">0.0</float>
+				<long name="cumulative_inserts">0</long>
+				<long name="cumulative_evictions">0</long>
+			</lst>
+			<lst name="/queryResultCache">
+				<long name="lookups">1</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">5</long>
+				<long name="evictions">0</long>
+				<int name="size">5</int>
+				<long name="warmupTime">0</long>
+				<long name="cumulative_lookups">437266</long>
+				<long name="cumulative_hits">431951</long>
+				<float name="cumulative_hitratio">0.99</float>
+				<long name="cumulative_inserts">5315</long>
+				<long name="cumulative_evictions">0</long>
+			</lst>
+			<lst name="/alfresco">
+				<long name="handlerStart">1548612680980</long>
+				<long name="requests">0</long>
+				<long name="errors">0</long>
+				<long name="timeouts">0</long>
+				<double name="totalTime">0.0</double>
+				<double name="avgRequestsPerSecond">0.0</double>
+				<double name="5minRateReqsPerSecond">0.0</double>
+				<double name="15minRateReqsPerSecond">0.0</double>
+				<double name="avgTimePerRequest">0.0</double>
+				<double name="medianRequestTime">0.0</double>
+				<double name="75thPcRequestTime">0.0</double>
+				<double name="95thPcRequestTime">0.0</double>
+				<double name="99thPcRequestTime">0.0</double>
+				<double name="999thPcRequestTime">0.0</double>
+			</lst>
+			<lst name="/alfrescoPathCache">
+				<long name="lookups">0</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">0</long>
+				<long name="evictions">0</long>
+				<int name="size">0</int>
+				<long name="warmupTime">0</long>
+				<long name="cumulative_lookups">0</long>
+				<long name="cumulative_hits">0</long>
+				<float name="cumulative_hitratio">0.0</float>
+				<long name="cumulative_inserts">0</long>
+				<long name="cumulative_evictions">0</long>
+			</lst>
+			<lst name="/afts">
+				<long name="handlerStart">1548612680981</long>
+				<long name="requests">3</long>
+				<long name="errors">0</long>
+				<long name="timeouts">0</long>
+				<double name="totalTime">68.465213</double>
+				<double name="avgRequestsPerSecond">1.384799416747204E-6</double>
+				<double name="5minRateReqsPerSecond">1.4821969375E-313</double>
+				<double name="15minRateReqsPerSecond">4.44659081257E-313</double>
+				<double name="avgTimePerRequest">22.821737666666667</double>
+				<double name="medianRequestTime">22.1118995</double>
+				<double name="75thPcRequestTime">23.935041</double>
+				<double name="95thPcRequestTime">23.935041</double>
+				<double name="99thPcRequestTime">23.935041</double>
+				<double name="999thPcRequestTime">23.935041</double>
+			</lst>
+			<lst name="/cmis">
+				<long name="handlerStart">1548612680982</long>
+				<long name="requests">0</long>
+				<long name="errors">0</long>
+				<long name="timeouts">0</long>
+				<double name="totalTime">0.0</double>
+				<double name="avgRequestsPerSecond">0.0</double>
+				<double name="5minRateReqsPerSecond">0.0</double>
+				<double name="15minRateReqsPerSecond">0.0</double>
+				<double name="avgTimePerRequest">0.0</double>
+				<double name="medianRequestTime">0.0</double>
+				<double name="75thPcRequestTime">0.0</double>
+				<double name="95thPcRequestTime">0.0</double>
+				<double name="99thPcRequestTime">0.0</double>
+				<double name="999thPcRequestTime">0.0</double>
+			</lst>
+			<lst name="/filterCache">
+				<long name="lookups">0</long>
+				<long name="hits">0</long>
+				<float name="hitratio">0.0</float>
+				<long name="inserts">1</long>
+				<long name="evictions">0</long>
+				<long name="size">3</long>
+				<long name="warmupTime">44</long>
+				<long name="cumulative_lookups">92</long>
+				<long name="cumulative_hits">91</long>
+				<float name="cumulative_hitratio">0.99</float>
+				<long name="cumulative_inserts">9</long>
+				<long name="cumulative_evictions">0</long>
+			</lst>
+			<lst name="Searcher-0">
+				<lst name="Searcher">
+					<str name="searcherName">Searcher@1712e59f[archive] main</str>
+					<bool name="caching">true</bool>
+					<int name="numDocs">3927431</int>
+					<int name="maxDoc">3929349</int>
+					<int name="deletedDocs">1918</int>
+					<str name="reader">
+						StandardDirectoryReader(segments_5zqc:900938:nrt _4b(4.9):C586170/1859:delGen=44 _67on(4.9):C3049497 _5j5b(4.9):C50768/2:delGen=2 _5pir(4.9):C39783/3:delGen=2 _5xwf(4.9):C34772/3:delGen=3 _62rf(4.9):C41473/3:delGen=3 _67od(4.9):C26533/2:delGen=2 _6nmv(4.9):C9480/1:delGen=1 _6np3(4.9):C7193/1:delGen=1 _6nfx(4.9):C10677/1:delGen=1 _6if3(4.9):C8042/1:delGen=1 _6ifd(4.9):C7409/1:delGen=1 _6ni5(4.9):C8815/13:delGen=2 _6npn(4.9):C9313/1:delGen=1 _6not(4.9):C9568/1:delGen=1 _6nnp(4.9):C10026/1:delGen=1 _6nnf(4.9):C9288/1:delGen=1 _6npd(4.9):C10494/1:delGen=1 _6npo(4.9):C4/2:delGen=2 _6npp(4.9):C4/2:delGen=2 _6npq(4.9):C4/2:delGen=2 _6npr(4.9):C12/6:delGen=2 _6nps(4.9):C4/2:delGen=2 _6npt(4.9):C10/5:delGen=2 _6npu(4.9):C4/2:delGen=2 _6npv(4.9):C6/2:delGen=1)
+					</str>
+					<str name="readerDir">
+						org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/local/alfresco-5.0.0.5/alf_data/solr4/index/archive/SpacesStore/index lockFactory=NativeFSLockFactory@/local/alfresco-5.0.0.5/alf_data/solr4/index/archive/SpacesStore/index; maxCacheMB=48.0 maxMergeSizeMB=4.0)
+					</str>
+					<long name="indexVersion">900938</long>
+					<date name="openedAt">2019-02-21T19:57:30.163Z</date>
+					<date name="registeredAt">2019-02-21T19:57:30.213Z</date>
+					<long name="warmupTime">45</long>
+				</lst>
+			</lst>
+			<int name="Number of Searchers">1</int>
+			<int name="Total Searcher Cache (GB)">0</int>
+			<str name="On disk (GB)">1.223034</str>
+			<long name="Per node B">7059</long>
+			<lst name="FTS">
+				<long name="Node count with FTSStatus Clean">56809</long>
+				<long name="Node count with FTSStatus Dirty">0</long>
+				<long name="Node count with FTSStatus New">0</long>
+			</lst>
+			<bool name="Active">false</bool>
+			<bool name="ModelTracker Active">false</bool>
+			<bool name="ContentTracker Active">false</bool>
+			<bool name="MetadataTracker Active">false</bool>
+			<bool name="AclTracker Active">false</bool>
+			<long name="Last Index TX Commit Time">1550779042262</long>
+			<date name="Last Index TX Commit Date">2019-02-21T19:57:22.262Z</date>
+			<str name="TX Lag">0 s</str>
+			<str name="TX Duration">P0Y</str>
+			<long name="Timestamp for last TX on server">1550779042262</long>
+			<date name="Date for last TX on server">2019-02-21T19:57:22.262Z</date>
+			<long name="Id for last TX on server">10852481</long>
+			<long name="Id for last TX in index">10852481</long>
+			<long name="Approx transactions remaining">0</long>
+			<str name="Approx transaction indexing time remaining">0 Seconds</str>
+			<long name="Last Index Change Set Commit Time">1550694054591</long>
+			<date name="Last Index Change Set Commit Date">2019-02-20T20:20:54.591Z</date>
+			<str name="Change Set Lag">0 s</str>
+			<str name="Change Set Duration">P0Y</str>
+			<long name="Timestamp for last Change Set on server">1550694054591</long>
+			<date name="Date for last Change Set on server">2019-02-20T20:20:54.591Z</date>
+			<long name="Id for last Change Set on server">5994</long>
+			<long name="Id for last Change Set in index">5994</long>
+			<long name="Approx change sets remaining">0</long>
+			<str name="Approx change set indexing time remaining">0 Seconds</str>
+			<str name="Approx content indexing time remaining">0 Seconds</str>
+			<lst name="Model sync times (ms)">
+				<null name="Start"/>
+				<long name="N">0</long>
+				<double name="Min">0.0</double>
+				<double name="Max">0.0</double>
+				<double name="Mean">0.0</double>
+				<double name="Varience">NaN</double>
+				<double name="StdDev">NaN</double>
+			</lst>
+			<lst name="Acl index time (ms)">
+				<date name="Start">2019-01-28T10:11:45.286Z</date>
+				<long name="N">61</long>
+				<double name="Min">0.315038</double>
+				<double name="Max">2.553465</double>
+				<double name="Mean">0.5557378524590164</double>
+				<double name="Varience">0.08392598979089444</double>
+				<double name="StdDev">0.2896998270467113</double>
+			</lst>
+			<lst name="Node index time (ms)">
+				<date name="Start">2019-01-27T19:35:15.201Z</date>
+				<long name="N">13025</long>
+				<double name="Min">0.46988</double>
+				<double name="Max">296.025323</double>
+				<double name="Mean">2.7464282366218904</double>
+				<double name="Varience">19.593437462068994</double>
+				<double name="StdDev">4.426447499075189</double>
+			</lst>
+			<lst name="Docs/Tx">
+				<date name="Start">2019-01-27T18:13:30.346Z</date>
+				<long name="N">229184</long>
+				<double name="Min">1.0</double>
+				<double name="Max">27239.0</double>
+				<double name="Mean">9.907127024574184</double>
+				<double name="Varience">23469.92386956561</double>
+				<double name="StdDev">153.1989682392333</double>
+			</lst>
+			<lst name="Doc Transformation time (ms)">
+				<null name="Start"/>
+				<long name="N">0</long>
+				<double name="Min">0.0</double>
+				<double name="Max">0.0</double>
+				<double name="Mean">0.0</double>
+				<double name="Varience">NaN</double>
+				<double name="StdDev">NaN</double>
+			</lst>
+		</lst>
+	</lst>
+</response>
