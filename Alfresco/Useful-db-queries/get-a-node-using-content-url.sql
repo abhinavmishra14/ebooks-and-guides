@@ -22,4 +22,4 @@ WHERE n.id=p.node_id
   AND d.content_url_id=u.id
   AND p1.node_id=n.id
   AND p1.qname_id IN (SELECT id FROM alf_qname WHERE local_name='name')
-  AND u.content_url='store://2015/4/30/12/5/0e111f05-7fcf-4a44-b719-b94cd04dd5ab.bin';
+  AND u.content_url='s3v2://0e111f05-7fcf-4a44-b719-b94cd04dd5ab.bin';
