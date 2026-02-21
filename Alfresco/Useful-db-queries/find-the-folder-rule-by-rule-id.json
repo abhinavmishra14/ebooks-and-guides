@@ -1,0 +1,13 @@
+{
+	"query": {
+		"language": "afts",
+		"query": "@act:parameterName:\"script-ref\" AND @act:parameterValue:\"workspace://SpacesStore/2430ac8a-dae7-4460-b340-510cd118cfd61\"",
+		"include": [
+			"properties"
+		],
+		"paging": {
+			"maxItems": 1500,
+			"skipCount": 0
+		}
+	}
+}
